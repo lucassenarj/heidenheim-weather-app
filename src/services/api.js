@@ -10,9 +10,15 @@ const getWeatherInfo = async () => {
     }
   })
   .then(response => {
-    return response.data;
+    return {
+      status: true,
+      response: response.data
+    };
   }).catch((error) => {
-    return error;
+    return {
+      status: false,
+      error
+    };
   });
 }
 
