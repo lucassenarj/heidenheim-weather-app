@@ -104,9 +104,11 @@ class Card extends Component {
               <Slider min={0} marks={this.state.marks} step={20} onChange={this.handleSlideChange} included={false} defaultValue={0} />
             </div>
           </div>
-          {this.state.markSelected && 
-            <p>{this.state.markSelected.minTemp}</p>
-          }
+          {this.state.markSelected && (
+            <div>
+              <p>{this.state.markSelected.minTemp}</p>
+            </div>
+          )}
         </div>
         <footer className="card-footer">
           <p className="card-footer-item">
