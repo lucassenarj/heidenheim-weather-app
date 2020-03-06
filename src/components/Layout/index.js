@@ -1,13 +1,14 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
+import { Container, Main } from './styles'
 
 export default (props) => (
-  <Fragment>
+  <Container>
     <Header />
-    <main>
+    <Main>
       {props.children}
-    </main>
+    </Main>
     <Footer />
-  </Fragment>
+  </Container>
 )

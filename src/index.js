@@ -1,8 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'bulma/css/bulma.css';
-import HomePage from './pages/home/HomePage';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import 'bulma/css/bulma.css'
+import HomePage from './pages/home/HomePage'
+import * as serviceWorker from './serviceWorker'
+import '@fortawesome/fontawesome-free/css/all.css'
 
 ReactDOM.render(<HomePage />, document.getElementById('root'));
 

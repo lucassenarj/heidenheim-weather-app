@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Layout from './../../components/Layout'
 import { getWeatherInfo } from './../../services/api'
 import Card from './../../components/Card'
+import Map from './../../components/Map'
 
 class HoemPage extends Component {
   state = {
@@ -24,13 +25,12 @@ class HoemPage extends Component {
         <section>
           <div className="container">
             {!this.state.loading && (
-              <div className="columns is-desktop">
+              <div className="columns is-desktop is-vcentered">
                 <div className="column is-one-third">
                   <Card weather={this.state.info} />
                 </div>
                 <div className="column is-two-thirds">
-                  <Card />
-                  <Card />
+                  <Map />
                 </div>
               </div>
             ) }
