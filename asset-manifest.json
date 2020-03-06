@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/heidenheim-weather-app/static/js/main.eee8945d.chunk.js",
+    "main.js.map": "/heidenheim-weather-app/static/js/main.eee8945d.chunk.js.map",
+    "runtime-main.js": "/heidenheim-weather-app/static/js/runtime-main.838a0caf.js",
+    "runtime-main.js.map": "/heidenheim-weather-app/static/js/runtime-main.838a0caf.js.map",
+    "static/css/2.92ed616f.chunk.css": "/heidenheim-weather-app/static/css/2.92ed616f.chunk.css",
+    "static/js/2.fef22c3d.chunk.js": "/heidenheim-weather-app/static/js/2.fef22c3d.chunk.js",
+    "static/js/2.fef22c3d.chunk.js.map": "/heidenheim-weather-app/static/js/2.fef22c3d.chunk.js.map",
+    "index.html": "/heidenheim-weather-app/index.html",
+    "precache-manifest.f540c8749dbae42dff4ac2530ee6b605.js": "/heidenheim-weather-app/precache-manifest.f540c8749dbae42dff4ac2530ee6b605.js",
+    "service-worker.js": "/heidenheim-weather-app/service-worker.js",
+    "static/css/2.92ed616f.chunk.css.map": "/heidenheim-weather-app/static/css/2.92ed616f.chunk.css.map",
+    "static/js/2.fef22c3d.chunk.js.LICENSE.txt": "/heidenheim-weather-app/static/js/2.fef22c3d.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/heidenheim-weather-app/static/media/fa-solid-900.cdfec5cf.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.838a0caf.js",
+    "static/css/2.92ed616f.chunk.css",
+    "static/js/2.fef22c3d.chunk.js",
+    "static/js/main.eee8945d.chunk.js"
+  ]
+}
